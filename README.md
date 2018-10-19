@@ -1,5 +1,5 @@
 # MyProfile
-This Is 1st App Which i Make i Make One Home Screen which Display Image and name and mobile number and email address and also and two button one i Education another is Work experience
+This Is 1st App Which i Make in Kotlin in this app i Make One Home Screen which Display Image and name and mobile number and email address and also and two button one i Education another is Work experience
 
                      ‘My profile’ screen
 This would be the home screen of the app, meaning when app is launched, user will land on
