@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    andriod:orientation="vertical"
+    andriod:padding="24dp">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="175dp">
+
+        <TextView
+            andriod:id="@+id/degreeview1"
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:layout_gravity="center"
+            andriod:text="Master in Electrical Engineering"
+            andriod:textColor="#222222"
+            andriod:textSize="16sp"
+            andriod:textStyle="bold" />
+
+        <TextView
+            andriod:id="@+id/collegeView1"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="wrap_content"
+            andriod:layout_below="@id/degreeview1"
+            andriod:layout_marginBottom="2dp"
+            andriod:gravity="center"
+            andriod:text="Massachusetts Institute of Technology"
+            andriod:textColor="#555555"
+            andriod:textSize="12sp" />
+
+        <View
+            andriod:id="@+id/divider"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="2dp"
+            andriod:layout_below="@id/collegeView1"
+            andriod:layout_marginTop="8dp"
+            andriod:background="@android:color/darker_gray"
+            andriod:outlineAmbientShadowColor="#CCCCCC"
+            andriod:visibility="visible" />
+
+        <TextView
+            andriod:id="@+id/degreeview2"
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:layout_below="@id/divider"
+            andriod:layout_gravity="center"
+            andriod:layout_marginTop="8dp"
+            andriod:text="Master in Physics"
+            andriod:textColor="#222222"
+            andriod:textSize="16sp"
+            andriod:textStyle="bold" />
+
+        <TextView
+            andriod:id="@+id/collegeView2"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="wrap_content"
+            andriod:layout_below="@id/degreeview2"
+            andriod:layout_marginBottom="2dp"
+            andriod:gravity="center"
+            andriod:text="Massachusetts Institute of Technology"
+            andriod:textColor="#555555"
+            andriod:textSize="12sp" />
+
+        <View
+            andriod:id="@+id/divider1"
+            andriod:layout_width="match_parent"
+            andriod:layout_height="2dp"
+            andriod:layout_below="@id/collegeView2"
+            andriod:layout_marginTop="8dp"
+            andriod:background="@android:color/darker_gray"
+            andriod:outlineAmbientShadowColor="#CCCCCC" />
+
+        <TextView
+            andriod:id="@+id/degreeview3"
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:layout_below="@id/divider1"
+            andriod:layout_gravity="center"
+            andriod:layout_marginTop="8dp"
+            andriod:text="Bachelors in Electrical Engineering"
+            andriod:textColor="#222222"
+            andriod:textSize="16sp"
+            andriod:textStyle="bold" />
+
+        <TextView
+            andriod:id="@+id/collegeView3"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="wrap_content"
+            andriod:layout_below="@id/degreeview3"
+            andriod:layout_marginBottom="2dp"
+            andriod:gravity="center"
+            andriod:text="Massachusetts Institute of Technology"
+            andriod:textColor="#555555"
+            andriod:textSize="12sp" />
+
+        <View
+            andriod:id="@+id/divider2"
+            andriod:layout_width="match_parent"
+            andriod:layout_height="2dp"
+            andriod:layout_below="@id/collegeView3"
+            andriod:layout_marginTop="8dp"
+            andriod:background="@android:color/darker_gray" />
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+            <size android:height="2dip" />
+
+            <solid android:color="#FFff0000" />
+
+        </shape>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

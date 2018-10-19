@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    andriod:orientation="vertical"
+    andriod:padding="24dp">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content">
+
+        <ImageView
+            andriod:id="@+id/imageView1"
+            andriod:layout_width="66dp"
+            andriod:layout_height="96dp"
+            andriod:layout_marginRight="7dp"
+            andriod:gravity="center"
+            andriod:src="@drawable/tony_stark_small" />
+
+        <TextView
+            andriod:id="@+id/nameview1"
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:layout_gravity="center"
+            andriod:layout_toRightOf="@id/imageView1"
+            andriod:layout_marginTop="6dp"
+            andriod:text="Tony Star"
+            andriod:textColor="#222222"
+            andriod:textSize="30sp"
+            andriod:textStyle="bold" />
+
+        <TextView
+            andriod:id="@+id/emailView2"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="wrap_content"
+            andriod:layout_toRightOf="@id/imageView1"
+            andriod:layout_below="@id/nameview1"
+            andriod:gravity="center"
+            andriod:text="mytechtalk@gmail.com"
+            andriod:layout_marginBottom="2dp"
+            andriod:textColor="#555555"
+            andriod:textSize="14sp" />
+
+        <TextView
+            andriod:id="@+id/phoneView1"
+            andriod:layout_marginBottom="8dp"
+            andriod:layout_width="wrap_content"
+            andriod:layout_height="wrap_content"
+            andriod:layout_below="@id/emailView2"
+            andriod:layout_gravity="center"
+            andriod:layout_marginStart="-146dp"
+            andriod:layout_marginLeft="5dp"
+            andriod:layout_marginTop="0dp"
+            andriod:layout_toEndOf="@+id/emailView2"
+            andriod:layout_toRightOf="@id/imageView1"
+            andriod:text="@string/_91_8604762980"
+            andriod:textColor="#555555"
+            andriod:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content">
+
+        <Button
+            andriod:id="@+id/btneducation"
+            andriod:layout_width="398dp"
+            andriod:layout_height="50dp"
+            andriod:layout_margin="5dp"
+            andriod:layout_marginStart="5dp"
+            andriod:layout_marginLeft="5dp"
+            andriod:layout_marginTop="5dp"
+            andriod:layout_marginEnd="5dp"
+            andriod:layout_marginRight="5dp"
+            andriod:layout_marginBottom="5dp"
+            andriod:background="#CC1111"
+            andriod:text="education"
+            andriod:textColor="#ffffff"
+            andriod:textSize="15sp" />
+
+        <Button
+            andriod:id="@+id/work"
+            andriod:layout_width="398dp"
+            andriod:layout_height="62dp"
+            andriod:layout_marginTop="6dp"
+
+            andriod:layout_below="@id/btneducation"
+            andriod:text="Work experience"
+            andriod:textColor="#ffffff"
+            andriod:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
